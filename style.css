@@ -83,23 +83,21 @@ header {
         padding-bottom: 60px;
         padding-left: 20px;
         padding-right: 20px;
-
-        min-width: 1100px;
-        text-align: center;
-        /* justify-content: center; */
+        display:grid;
+        place-items: center;
 
         h2 {
             font-size: 2rem;
             margin-bottom: 20px;
             color: var(--primary-color);
+            max-width: 1100px;
         }
 
         p {
             font-size: 1.1rem;
             margin-bottom: 30px;
-            text-align:center;
-            min-width: 800px;
-            
+            max-width: 800px;
+            text-align: center;
         }
     }
 /* section konten */
